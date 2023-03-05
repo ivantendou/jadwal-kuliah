@@ -74,12 +74,12 @@ body {
 }
 
 .schedule .course p.course-name {
-	font-size: 2rem;
+	font-size: 1.3rem;
 	font-weight: 700;
 }
 
 .schedule .course p {
-	font-size: 2rem;
+	font-size: 1.3rem;
 }
 
 .schedule .course span {
