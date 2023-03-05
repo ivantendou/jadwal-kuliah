@@ -57,6 +57,7 @@ body {
 .schedule {
 	padding-top: 12rem;
 	text-align: center;
+	font-size: 1.3rem;
 }
 
 .image {
@@ -74,7 +75,6 @@ body {
 }
 
 .schedule .course p.course-name {
-	font-size: 1rem;
 	font-weight: 700;
 }
 
