@@ -1,0 +1,106 @@
+:root {
+	--primary: #E2F3F5;
+	--background: #0E153A;
+	--secondary: #22D1EE;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--background);
+	color: var(--primary);
+}
+
+/* Navbar */
+.navbar {
+	text-align: center;
+	border-bottom: 1px solid #3D5AF1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	backdrop-filter: blur(10px);
+	padding-bottom: 1rem;
+}
+
+.navbar .navbar-logo {
+	padding: 1rem 0;
+	font-size: 2rem;
+	font-weight: 700;
+	color: var(--primary);
+}
+
+.navbar .navbar-logo span {
+	color: var(--secondary);
+}
+
+.navbar .navbar-nav a {
+	font-size: 1.3rem;
+	color: var(--primary);
+	margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+	color: var(--secondary);
+}
+
+/* Schedule */
+.schedule {
+	margin-top: 8rem;
+	text-align: center;
+}
+
+.image {
+	width: 85%;
+	border-radius: 5px;
+	margin-top: 2rem;
+}
+
+.schedule .course {
+	background: var(--primary);
+	color: var(--background);
+	margin: 1rem 2.1rem;
+	padding: 1rem 1rem;
+	border-radius: 1rem;
+}
+
+.schedule .course p.course-name {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.schedule .course span {
+	color: #3D5AF1;
+}
+
+.schedule p.schedule-title {
+	padding: 2rem 0;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--primary);
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	padding: 3rem 0;
+}
+
+footer .credit a {
+	color: #22D1EE;
+}
+
+@media (max-width:  450px) {
+	html {
+		font-size: 55%;
+	}
+}
