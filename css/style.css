@@ -61,8 +61,10 @@ body {
 
 .image {
 	width: 85%;
-	border-radius: 5px;
+	border-radius: 0.8rem;
 	margin-top: 2rem;
+	height: 16rem;
+	object-fit: cover;
 }
 
 .schedule .course {
@@ -70,16 +72,16 @@ body {
 	color: var(--background);
 	margin: 1rem 2.1rem;
 	padding: 1rem 1rem;
-	border-radius: 1rem;
+	border-radius: 0.8rem;
 }
 
 .schedule .course p.course-name {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 }
 
 .schedule .course p {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 }
 
 .schedule .course span {
